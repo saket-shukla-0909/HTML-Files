@@ -1,0 +1,139 @@
+/* background property
+    background-color
+    background-image : url()
+    background-repeat : repeat-x repeat-y no-repeat
+    background-attachment: fixed, scroll
+    background-position : right-top, right-bottom,
+    background (shorthand property)
+    background-shorthand: url() no-repeat scroll right-top;
+
+    border property
+    p.one {
+      border-style: solid;
+      border-width: 5px;
+    }
+    
+    p.two {
+      border-style: solid;
+      border-width: medium;
+    }
+    
+    p.three {
+      border-style: dotted;
+      border-width: 2px;
+    }
+    
+    p.four {
+      border-style: dotted;
+      border-width: thick;
+    }
+    
+    p.one {
+        border-style: solid;
+        border-width: 5px 20px;
+    }
+    
+    p.two {
+      border-style: solid;
+      border-width: 20px 5px;
+    }
+    
+    p.three {
+      border-style: solid;
+      border-width: 25px 10px 4px 35px;
+    }
+
+    name - specify a color name, like "red"
+        HEX - specify a HEX value, like "#ff0000"
+        RGB - specify a RGB value, like "rgb(255,0,0)"
+        HSL - specify a HSL value, like "hsl(0, 100%, 50%)"
+        transparent
+
+
+    border style
+    p {
+      border-top-style: dotted;
+      border-right-style: solid;
+      border-bottom-style: dotted;
+      border-left-style: solid;
+    }
+
+    border sortherened
+        border-width
+        border-style (required)
+        border-color
+
+    p {
+        border-left: 6px solid red;
+    }
+    
+    Margin Collapse
+    Top and bottom margins of elements are sometimes collapsed into a single margin that is equal to the largest of the two margins.
+
+    This does not happen on left and right margins! Only top and bottom margins!
+
+    Look at the following example:
+
+    height
+    height	Sets the height of an element
+    max-height	Sets the maximum height of an element
+    max-width	Sets the maximum width of an element
+    min-height	Sets the minimum height of an element
+    min-width	Sets the minimum width of an element
+    width	Sets the width of an elemen
+
+    The CSS Box Model
+    In CSS, the term "box model" is used when talking about design and layout.
+
+    The CSS box model is essentially a box that wraps around every HTML element. It consists of: content, padding, borders and margins. The image below illustrates the box model:
+    Explanation of the different parts:
+
+    Content - The content of the box, where text and images appear
+    Padding - Clears an area around the content. The padding is transparent
+    Border - A border that goes around the padding and content
+    Margin - Clears an area outside the border. The margin is transparent
+
+
+    An outline is a line that is drawn around elements, OUTSIDE the borders, to make the element "stand out"
+
+    outline-style
+                    dotted - Defines a dotted outline
+                    dashed - Defines a dashed outline
+                    solid - Defines a solid outline
+                    double - Defines a double outline
+                    groove - Defines a 3D grooved outline
+                    ridge - Defines a 3D ridged outline
+                    inset - Defines a 3D inset outline
+                    outset - Defines a 3D outset outline
+                    none - Defines no outline
+                    hidden - Defines a hidden outline
+    outline-color
+                    name - specify a color name, like "red"
+                    HEX - specify a hex value, like "#ff0000"
+                    RGB - specify a RGB value, like "rgb(255,0,0)"
+                    HSL - specify a HSL value, like "hsl(0, 100%, 50%)"
+                    invert - performs a color inversion (which ensures that the outline is visible, regardless of color background)
+    outline-width
+                    thin (typically 1px)
+                    medium (typically 3px)
+                    thick (typically 5px)
+                    A specific size (in px, pt, cm, em, etc)
+    outline-offset
+    The outline-offset property adds space between an outline and the edge/border of an element. The space between an element and its outline is transparent.
+
+    The following example specifies an outline 15px outside the border edge
+                      p {
+                        margin: 30px;
+                        border: 1px solid black;
+                        outline: 1px solid red;
+                        outline-offset: 15px;
+                      }
+    outline southerland
+                    outline-width
+                    outline-style (required)
+                    outline-color
+                                  p.ex1 {outline: dashed;}
+                                  p.ex2 {outline: dotted red;}
+                                  p.ex3 {outline: 5px solid yellow;}
+                                  p.ex4 {outline: thick ridge pink;
+*/

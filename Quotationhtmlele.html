@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>My Father name is <small>manoj</small> Shukla</h1>
+    <h1>My name is <mark>saket</mark> shukla</h1>
+    <h1> I have done <em> Masters in Computers in Application </em></h1>
+    <p> My Mothers name is <b>Rekha Shukla</b></p>
+    <p> My Brothers name is <i>Aman Shukla</i></p>
+    <p>My Sisters name is <strong> Tannu Shukla </strong></p>
+    <h1>2<sup>2</sup> = 4</h1>
+    <h1>2<sub>2</sub> = ?</h1>
+    <h1>My Second Sisters name is <ins>Prerna Shukla</ins></h1>
+    <h1>Rs <del>1899</del> <sub>899</sub> </h1>
+    <blockquote cite="http://www.worldwildlife.org/who/index.html">My Father name is manoj shukla. My name is Saket Shukla. I have done  Masters in Computers in Application.
+        My Mothers name is Rekha Shukla. My Brothers name is Aman Shukla. My Sisters name is Tannu Shukla
+    </blockquote>
+    <h1><q>My name is Saket Shukla. My Fathers name is Manoj Shukla</q></h1>  
+    <h1>My name is Saket Shukla. My Fathers name is <abbr title="Manoj Shukla">MS</abbr></h1>  
+    <h1>My name is Saket Shukla.<bdo dir="ltr"> My Fathers name is Manoj Shukla</bdo></h1> 
+    <h1>My name is Saket Shukla.<bdo dir="rtl"> My Fathers name is Manoj Shukla</bdo></h1> 
+    <!-- 
+        <img src=""/>
+        img: absolute = src:"http link of image that is uploaded on the google",
+                        src:"link of that image which is inside the folder"
+            
+    -->
+     <!--
+        color : rgb : rgb(num, num, num)
+              : hex : #f9f9f9,
+              : hsl : hsl(num in %, num in %, num in %)
+     -->
+    <!-- 
+        <a href ="" target="" /> 
+        target="_self" link will open on the same window
+        target="_blank" link will open on the new window
+        target="_parent" link will Opens the document in the parent frame
+        target="_top" link will  Opens the document in the full body of the window
+    -->
+
+    <!-- 
+        <a href="mailto:someone@gmail.com">Send Mail <a/>
+    -->
+            <a href="shukla.kumar.saket@gmail.com" title="go to saket gmail">Send Mail</a>
+            <img src="workplace.jpg" alt="Workplace" usemap="#workmap">
+
+<!-- <map name="workmap">
+  <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+  <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+  <area shape="circle" coords="337,300,44" alt="Coffee" href="coffee.htm">
+</map> -->
+
+<!-- 
+        rect - defines a rectangular region
+        circle - defines a circular region
+        poly - defines a polygonal region
+        default - defines the entire region
+-->
+    
+<!-- 
+    If you want the background image to cover the entire element, you can set the background-size property to cover.
+    Also, to make sure the entire element is always covered, set the background-attachment property to fixed:
+    This way, the background image will cover the entire element, with no stretching (the image will keep its original proportions):
+    <style>
+    body {
+      background-image: url('img_girl.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+    }
+    body {
+      background-image: url('img_girl.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: 100% 100%;
+    }
+</style>
+-->
+
+<!-- 
+    <picture>
+  <source media="(min-width: 650px)" srcset="img_food.jpg">
+  <source media="(min-width: 465px)" srcset="img_car.jpg">
+  <img src="img_girl.jpg">
+    </picture    
+-->
+<!-- border: 1px  ________ black
+                   dotted     
+                   dashed     
+                   solid     
+                   double     
+                   groove     
+                   ridge     
+                   inset     
+                   outset     
+                   none     
+                   hidden
+ 
+-->
+<!-- 
+         padding: 15px; for all four sides
+
+         th, td {
+                  padding-top: 10px;
+                  padding-bottom: 20px;
+                  padding-left: 30px;
+                  padding-right: 40px;
+                }
+
+        table {
+                  border-spacing: 30px;
+              }
+                rowspan
+                colspan
+-- >
+            tr:nth-child(even){
+                background-color: #D6EEEE;
+            }
+
+
+            td:nth-child(even), th:nth-child(even) {
+                background-color: #D6EEEE;
+            }
+} -->
+
+<!-- 
+                        tr:nth-child(even) {
+  background-color: rgba(150, 212, 212, 0.4);
+}
+
+th:nth-child(even),td:nth-child(even) {
+  background-color: rgba(150, 212, 212, 0.4);
+}
+
+<!-- <table>
+  <colgroup>
+    <col span="2" style="background-color: #D6EEEE">
+  </colgroup>
+  <tr>
+    <th>MON</th>
+    <th>TUE</th>
+    <th>WED</th>
+    <th>THU</th
+-->
+        <!-- 
+            <ul> list </ul>
+            list-style-type :
+
+            disc	Sets the list item marker to a bullet (default)
+            circle	Sets the list item marker to a circle
+            square	Sets the list item marker to a square
+            none	The list items will not be marked
+        -->
+        <!-- 
+            <ol> list </ol>
+            list-style-type : 
+            type="1"	The list items will be numbered with numbers (default)
+            type="A"	The list items will be numbered with uppercase letters
+            type="a"	The list items will be numbered with lowercase letters
+            type="I"	The list items will be numbered with uppercase roman numbers
+            type="i"	The list items will be numbered with lowercase roman numbers
+        -->
+
+        <!-- inline frame
+            <iframe src="demo_iframe.htm" height="200" width="300" title="Iframe Example"></iframe> 
+
+            <iframe src="demo_iframe.htm" name="iframe_a" title="Iframe Example"></iframe>
+
+            <p><a href="https://www.w3schools.com" target="iframe_a">W3Schools.com</a></p>
+        -->
+
+        <p><kbd>ctrl + s</kbd> this shortcut key is used to save the file and folder</p>
+        <!-- 
+              <samp> is used for printing the data as output.
+                it prints the data in monospace font-family
+        -->
+        <p><samp>File not found. Press F1 to continue</samp></p>
+       
+        <!-- <code> - code tag is used to print any type of code on the browser. -->
+        <pre>
+          <code>
+                var x  = 10;
+                var y = 20;
+                var z = x + y;
+                console.log(z);
+          </code>
+        </pre>
+        <!-- <var>  element  is used to define a variable in programming or in a mathematical expression. The content inside is typically displayed in italic. -->
+          <p>
+            Area of triangle is: 1/2* <var>b</var>*<var>h. where <var>b</var> is the base and <var>h</var> is the height of triangle.
+          </p>
+
+        <!-- 
+              <header> - Defines a header for a document or a section
+              <nav> - Defines a set of navigation links
+              <section> - Defines a section in a document
+              <article> - Defines an independent, self-contained content
+              <aside> - Defines content aside from the content (like a sidebar)
+              <footer> - Defines a footer for a document or a section
+              <details> - Defines additional details that the user can open and close on demand
+              <summary> - Defines a heading for the <details> element  
+        -->
+
+        <!-- 
+                  Many web sites contain HTML code like: <div id="nav"> <div class="header"> <div id="footer"> to indicate navigation, header, and footer.
+
+                  In HTML there are some semantic elements that can be used to define different parts of a web page:  
+
+              <article>
+              <aside>
+              <details>
+              <figcaption>
+              <figure>
+              <footer>
+              <header>
+              <main>
+              <mark>
+              <nav>
+              <section>
+              <summary>
+              <time>
+        -->
+      
+        <!-- &lt; =>  means greater than in html  -->
+            <p>2 &lt; 3</p>
+
+        <!-- &gt; =>  means less than in html  -->
+            <p>3 &gt; 2</p>
+          
+        <!-- &nbsp; =>  means space between the words  -->
+            <p>3&nbsp;2</p>
+
+          <!-- 
+                    Result	Description	Name	Number	
+                    non-breaking space	
+                          &nbsp;	&#160;	
+                          <	less than	&lt;	&#60;	
+                          >	greater than	&gt;	&#62;	
+                          &	ampersand	&amp;	&#38;	
+                          "	double quotation mark	&quot;	&#34;	
+                          '	single quotation mark	&apos;	&#39;	
+                          ¢	cent	&cent;	&#162;	
+                          £	pound	&pound;	&#163;	
+                          ¥	yen	&yen;	&#165;	
+                          €	euro	&euro;	&#8364;	
+                          ©	copyright	&copy;	&#169;	
+                          ®	trademark	&reg;	&#174;
+          -->     
+          
+          <!-- 
+                  A canvas is a rectangular area on an HTML page. By default, a canvas has no border and no content.
+                  The markup looks like this:
+                  <canvas id="myCanvas" width="200" height="100" style="border:1px solid #000000;">
+                  </canvas>
+          -->
+
+          <!-- <video width="320" height="240" autoplay muted>
+                <source src="movie.mp4" type="video/mp4">
+                <source src="movie.ogg" type="video/ogg">
+                  Your browser does not support the video tag. Add muted after autoplay to let your video start playing automatically (but muted):
+                </video> 
+                <video>	Defines a video or movie
+                <source>	Defines multiple media resources for media elements, such as <video> and <audio>
+                <track>	Defines text tracks in media players
+          -->
+          <!--
+                  The controls attribute adds audio controls, like play, pause, and volume.
+                  The <source> element allows you to specify alternative audio files which the browser may choose from. The browser will use the first recognized format.
+                  The text between the <audio> and </audio> tags will only be displayed in browsers that do not support the <audio> element.
+                  <audio controls autoplay>
+                  <source src="horse.ogg" type="audio/ogg">
+                  <source src="horse.mp3" type="audio/mpeg">
+                  </audio>
+                  
+                  Tag	Description
+                  <audio>	Defines sound content
+                  <source>	Defines multiple media resources for media elements, such as <video> and <audio>
+          -->
+
+          <!-- 
+                    To play your video on a web page, do the following:
+
+                      Upload the video to YouTube
+                      Take a note of the video id
+                      Define an <iframe> element in your web page
+                      Let the src attribute point to the video URL
+                      Use the width and height attributes to specify the dimension of the player
+                      Add any other parameters to the URL (see below)
+                      <iframe width="420" height="315"
+                      src="https://www.youtube.com/embed/tgbNymZ7vqY">
+                      </iframe>
+          -->
+
+</body>
+</html>
