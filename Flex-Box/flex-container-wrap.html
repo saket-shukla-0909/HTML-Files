@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .flex-conatiner{
+        display: flex;
+        flex-wrap: wrap;
+        background-color: blueviolet;
+    }
+    .flex-conatiner > div{
+        width: 80px;
+        margin: 20px;
+        line-height: 75px;
+        text-align: center;
+        font-size: 30px;
+        background-color: #f1f1f1f1;
+    }
+    .flex-conatiner1{
+        display: flex;
+        flex-wrap: nowrap;
+        background-color: blueviolet;
+    }
+    .flex-conatiner1 > div{
+        width: 80px;
+        margin: 20px;
+        line-height: 75px;
+        text-align: center;
+        font-size: 30px;
+        background-color: #f1f1f1f1;
+    }
+    .flex-conatiner2{
+        display: flex;
+        flex-wrap: wrap-reverse;
+        background-color: blueviolet;
+    }
+    .flex-conatiner2 > div{
+        width: 80px;
+        margin: 20px;
+        line-height: 75px;
+        text-align: center;
+        font-size: 30px;
+        background-color: #f1f1f1f1;
+    }
+    .flex-conatiner3{
+        display: flex;
+        flex-flow: row wrap;
+        background-color: blueviolet;
+    }
+    .flex-conatiner3 > div{
+        width: 80px;
+        margin: 20px;
+        line-height: 75px;
+        text-align: center;
+        font-size: 30px;
+        background-color: #f1f1f1f1;
+    }
+</style>
+<body>
+        <h1>Flex-wrap = Warp</h1>
+        <div class="flex-conatiner">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+            <div>7</div>
+            <div>8</div>
+            <div>9</div>
+            <div>10</div>
+            <div>11</div>
+            <div>12</div>
+        </div>
+
+        <h1>Flex-wrap = No-Warp</h1>
+        <div class="flex-conatiner1">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+            <div>7</div>
+            <div>8</div>
+            <div>9</div>
+            <div>10</div>
+            <div>11</div>
+            <div>12</div>
+        </div>
+        
+        <h1>Flex-wrap = Warp-Reverse</h1>
+        <div class="flex-conatiner2">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+            <div>7</div>
+            <div>8</div>
+            <div>9</div>
+            <div>10</div>
+            <div>11</div>
+            <div>12</div>
+        </div>
+
+        <h1>Flex-Flow = Row-Reverse</h1>
+        <div class="flex-conatiner3">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+            <div>7</div>
+            <div>8</div>
+            <div>9</div>
+            <div>10</div>
+            <div>11</div>
+            <div>12</div>
+        </div>
+</body>
+</html>
