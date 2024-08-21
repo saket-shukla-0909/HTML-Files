@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .div1{
+        height: 250px;
+        background-image: radial-gradient(red, green, blue);
+    }
+    .div2{
+        height: 250px;
+        background-image: radial-gradient(red 15% , green 25% , blue 45%);
+    }
+    .div3{
+        height: 250px;
+        background-image: radial-gradient(circle, red, green , blue);
+    }
+    .div4{
+        height: 250px;
+        background-image: radial-gradient(diaond, red, green , blue);
+    }
+    .Closestside{
+        height: 150px;
+        width: 150px;
+        border-color: red;
+        background-image: radial-gradient(Closest-side at 60% 55%, red, yellow, black);
+    }
+    .farthestside{
+        height: 150px;
+        width: 150px;
+        border-color: red;
+        background-image: radial-gradient(farthest-side at 60% 55%, red, yellow, black);
+    }
+    .repeat{
+        height: 250px;
+        background-image: repeating-radial-gradient(red, yellow 10%, green 15%);
+    }
+</style>
+<body>
+    <h1>Normal Radial Gradient</h1>
+    <div class="div1"></div>
+    <h1>Radial Gradient with percent</h1>
+    <div class="div2"></div>
+    <h1>Radial Gradient With shape</h1>
+    <div class="div3"></div>
+    <h1>Radial Gradient With shape</h1>
+    <div class="div3"></div>
+    <h1>Radial Gradient With shape</h1>
+    <div class="div4"></div>
+
+    <h1>Closest Side</h1>
+    <div class="Closestside"></div>
+    <h1>Fartheset Side</h1>
+    <div class="farthestside"></div>
+
+    <h1> Repeating radial gradient </h1>
+    <div class="repeat"></div>
+</body>
+</html>

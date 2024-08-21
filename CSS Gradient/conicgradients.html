@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .div1{
+        height: 250px;
+        width: 250px;
+        background-image: conic-gradient(red, yellow, green);
+    }
+    .div2{
+        height: 250px;
+        width: 250px;
+        background-image: conic-gradient(red, yellow, green, blue, black);
+    }
+    .div3{
+        height: 250px;
+        width: 250px;
+        background-image: conic-gradient(red 45deg, yellow 90deg, green 210deg);
+    }
+    .div4{
+        height: 250px;
+        width: 250px;
+        background-image: conic-gradient(red 0deg, red 90deg, yellow 90deg, yellow 180deg, green 180deg, green 270deg, blue 270deg);
+        border-radius: 50%;
+    }
+    .div5{
+        height: 250px;
+        width: 250px;
+        background-image: conic-gradient(from 90deg, red, yellow, green);
+        border-radius: 50%;
+    }
+    .div6{
+        height: 250px;
+        width: 250px;
+        background-image: conic-gradient(at 60% 45%, red, yellow, green);
+        border-radius: 50%;
+    }
+    .div6{
+        height: 250px;
+        width: 250px;
+        background-image: repeating-conic-gradient(red 0deg 10deg, yellow 10deg 20deg, blue 20deg 30deg);;
+        border-radius: 50%;
+    }
+</style>
+<body>
+    <h1>Normal Conic Gradient with three colors</h1>
+    <div class="div1"></div>
+    <h1>Normal Conic Gradient with five colors</h1>
+    <div class="div2"></div>
+    <h1>Normal Conic Gradient with five colors and degree</h1>
+    <div class="div3"></div>
+    <h1>Pie Chart</h1>
+    <div class="div4"></div>
+    <h1>With a angle by using (from) </h1>
+    <div class="div5"></div>
+    <h1>For another angle by using (at)</h1>
+    <div class="div6"></div>
+    <h1>repeating conic gradient </h1>
+    <div class="div7"></div>
+</body>
+</html>

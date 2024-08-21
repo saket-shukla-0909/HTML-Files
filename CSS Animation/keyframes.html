@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .keyframes{
+        height: 250px;
+        width: 250px;
+        background-color: red;
+        animation-name: example;
+        animation-duration: 4s;
+    }
+    @keyframes example{
+        from {background-color: red;}
+        to {background-color: blue;}
+    }
+
+    .keyframe2{
+        height: 250px;
+        width: 250px;
+        background-color: red;
+        animation-name: percent;
+        animation-duration: 4s;
+    }
+    @keyframes percent {
+        0% {background-color: red;} 
+        25% {background-color: blue;}       
+        50% {background-color: green;}       
+        100% {background-color: yellow;}       
+    }
+    .keyframe3{
+        height: 250px;
+        width: 250px;
+        background-color: red;
+        animation-name: percentwithlefttop;
+        animation-duration: 4s;
+    }
+    @keyframes percentwithlefttop {
+        0% {background-color: red; left: 0px; top: 0px;} 
+        25% {background-color: blue; left: 200px; top: 0px;}       
+        50% {background-color: green; left: 200px; top: 200px;}       
+        75% {background-color: blueviolet; left: 0px; top: 200px;}       
+        100% {background-color: yellow; left: 0px; top: 0px;}       
+    }
+</style>
+<body>
+        <h1>Key Frames</h1>
+        <div class="keyframes"></div>
+
+        <h1>Key frame % </h1>
+        <div class="keyframe2"></div>
+
+        <h1>Key frame % </h1>
+        <div class="keyframe3"></div>
+</body>
+</html>

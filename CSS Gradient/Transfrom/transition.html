@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .div1{
+        height: 200px;
+        width: 200px;
+        background-color: red;
+        transition: width 2s;
+    }
+    .div1:hover{
+        background-color: green;
+        width: 500px;
+    }
+    .div2{
+        height: 250px;
+        width: 250px;
+        background-color: red;
+        transition: height 2s, width 2s;
+    }
+    .div2:hover{
+        background-color: blueviolet;
+        width: 500px;
+        height: 500px;
+    }
+    .divttf{
+        height: 200px;
+        width: 200px;
+        background-color: brown;
+        transition: width 2s;
+    }
+    .divttf:hover{
+        width: 800px;
+        background-color: blueviolet;
+    }
+    #linear{
+        transition-timing-function: linear;
+    }
+    #ease{
+        transition-timing-function: ease;
+    }
+    #easein{
+        transition-timing-function: ease-in;
+    }
+    #easeout{
+        transition-timing-function: ease-out;
+    }
+    #easeinout{
+        transition-timing-function: ease-in-out;
+    }
+    .tdw{
+        height: 250px;
+        width: 250px;
+        background-color: red;
+        transition: width 3s;
+        transition-delay: 2s;
+   
+    }
+    .tdw:hover{
+        background-color: blue;
+        width: 600px;
+    }
+    .tdh{
+        height: 250px;
+        width: 250px;
+        background-color: red;
+        transition: height 3s;
+        transition-delay: 2s;
+   
+    }
+    .tdh:hover{
+        background-color: blue;
+        height: 600px;
+    }
+    .tdhw{
+        height: 250px;
+        width: 250px;
+        background-color: red;
+        transition: height 3s, width 3s;
+        transition-delay: 2s;
+   
+    }
+    .tdhw:hover{
+        background-color: blue;
+        height: 600px;
+        width: 600px;
+    }
+</style>
+<body>
+        <h1>transition effect in one direction</h1>
+        <diV class="div1"></diV>
+
+        <h1>transition effect in two direction</h1>
+        <div class="div2"></div>
+
+        <h1>transition timing function</h1>
+        <div class="divttf" id="linear">Linear</div>
+        <div class="divttf" id="ease">ease</div>
+        <div class="divttf" id="easein">ease-in</div>
+        <div class="divttf" id="easeout">ease-out</div>
+        <div class="divttf" id="easeinout">ease-in-out</div>
+
+        <h1>Transition Delay only for width</h1>
+        <div class="tdw"></div>
+        
+        <h1>Transition Delay only for height</h1>
+        <div class="tdh"></div>
+        
+        <h1>Transition Delay only for height and width</h1>
+        <div class="tdhw"></div>
+</body>
+</html>
